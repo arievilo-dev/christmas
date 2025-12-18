@@ -3,8 +3,8 @@
 **Crie sua própria árvore de natal virtual com PYTHON!**
 
 ```shell
-mkdir arvoreDeNatal
-cd arvoreDeNatal
+touch arvoreDeNatal.py
+python arvoreDeNatal.py
 ```
 
 Topa o desafio de criar sua árvore de natal com lógica de programação?
