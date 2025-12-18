@@ -6,6 +6,9 @@ andares = int(andares)
 
 def desenha_arvore(andares):
     for i in range(andares):
+        if i == 0: # Se for o andar 1
+            num_espacos = ' ' * (andares - i - 2)
+            print(num_espacos + '🌟')
         num_espacos = ' ' * (andares - i - 1)
         num_asteriscos = '*' * (2 * i + 1) # Para ser sempre impar
         print(num_espacos + num_asteriscos)
